@@ -1,0 +1,52 @@
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment and local overrides
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Dependency directories
+node_modules/
+
+# Build and coverage output
+dist/
+build/
+out/
+coverage/
+.cache/
+
+# Python artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Java artifacts
+target/
+
+# Go artifacts
+bin/
+
+# Rust artifacts
+target/
+
+# Package manager caches
+.npm/
+.pnpm-store/
+.yarn/
